@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>是小向呀(●'◡'●)</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <div class="swithDivContain">
-      <div class="longCanvas">
-        <div class="introduction">
-          <div class="mask">
-            <div class="introductionText"><span>以学习唤醒灵魂。</span></div>
-            <span class="introductionTitle">——TimothyLiu</span>
-          </div>
-          <div class="seeMore">↓ 滚动鼠标或向下滑动查看更多 ↓</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>是小向(●'◡'●)</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="swithDivContain">
+    <div class="longCanvas">
+      <div class="introduction">
+        <div class="mask">
+          <div class="introductionText"><span>以学习唤醒灵魂。</span></div>
+          <span class="introductionTitle">——TimothyLiu</span>
         </div>
-        <div class="showMe">
-          <div class="showMeContent">
-            <div class="headImg"></div>
-            <div class="music">
-              <audio controls autoplay="autoplay" loop>
-                <source
-                  src="./assets/music/Through the Arbor.mp3"
-                  type="audio/mpeg"
-                />
-              </audio>
-            </div>
-            <div class="selfIntro">
-              <div>
-                <p>嗨~你好呀！欢迎来到我的个人网页。</p>
-                <p>
-                  我是小向，一名在甲级建筑设计院从业3年，并且想要致力于建筑信息化发展的女生~！
-                </p>
-                <p>
-                  我在设计院工作期间，完成多种类型的项目设计，积累了丰富的工程经验。项目类型详下表：
-                </p>
-                <div class="selfIntro">
-                  <table border="1">
+        <div class="seeMore">↓ 滚动鼠标查看更多 ↓</div>
+      </div>
+      <div class="showMe">
+        <div class="showMeContent">
+          <div class="headImg"></div>
+          <div class="music">
+            <audio controls autoplay="autoplay" loop>
+              <source src="./assets/music/Through the Arbor.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="selfIntro">
+            <div class="box">
+              <p>嗨~你好呀！欢迎来到我的个人网页。</p>
+              <p>
+                我是小向，一名在甲级建筑设计院从业3年，并且想要致力于建筑信息化发展的女生~！
+              </p>
+              <p>
+                我在设计院工作期间，完成多种类型的项目设计，积累了丰富的工程经验。项目类型详下表：
+              </p>
+              <div class="selfIntro">
+                <table border="1">
+                  <thead>
                     <tr>
                       <th align="center">项目类型：</th>
                     </tr>
+                  </thead>
+                  <tbody>
                     <tr>
                       <td align="center">温泉酒店</td>
                       <td align="center">幼儿园</td>
@@ -62,139 +63,116 @@
                       <td align="center">高层住宅</td>
                       <td align="center">超高层住宅</td>
                     </tr>
-                  </table>
-                </div>
-                <p>
-                  丰富的工程经验让我熟悉地产设计的行业应用需求，但凭此加入建筑数字化行业还远远不够。
-                </p>
-                <p>
-                  于是我自学了C#、WPF，学习了Revit
-                  API文档并且做了几个小插件，积累了些软件开发经验。（P.S
-                  我还学了WEB开发，做了个人网站，没错，(●'◡'●)就是你目前正在浏览的）
-                </p>
-
-                <p>
-                  下一页，我会展示我的小插件，以及分享一些免费的网络学习资源，供大家参考。
-                </p>
+                  </tbody>
+                </table>
               </div>
+              <p>
+                丰富的工程经验让我熟悉地产设计的行业应用需求，但凭此加入建筑数字化行业还远远不够。
+              </p>
+              <p>
+                于是我自学了C#、WPF，学习了Revit
+                API文档并且做了几个小插件，积累了些软件开发经验。（P.S
+                我还学了WEB开发，做了个人网站，没错，(●'◡'●)就是你目前正在浏览的）
+              </p>
+
+              <p>
+                下一页，我会展示我的小插件，以及分享一些免费的网络学习资源，供大家参考。
+              </p>
             </div>
           </div>
-          <div class="seeMore">↓ 滚动鼠标或向下滑动查看更多 ↓</div>
+        </div>
+        <div class="seeMore">↓ 滚动鼠标查看更多 ↓</div>
+      </div>
+
+      <div class="nextPage">
+        <h3>插件一：管道打断</h3>
+
+        <div class="showGIF1"></div>
+        <div>
+          <p>插件功能介绍：</p>
+          <p>
+            1.单点打断：优化了revit自带的打断管道命令，不会自动生成管接头，减去了设计师手动删除管接头的步骤。
+          </p>
+          <p>2.两点打断：鼠标点击想要断开的两点即可，自动删除多余的管件。</p>
+        </div>
+        <div id="seeMore">↓ 滚动鼠标查看更多 ↓</div>
+      </div>
+
+      <div class="nextPage">
+        <h3>插件二：管道自动翻弯</h3>
+        <div class="showGIF2"></div>
+        <div>
+          <p>插件功能介绍：</p>
+          <p>
+            设置好需要翻弯的高度（正数往上翻，负数往下翻），然后鼠标点击需要翻弯的位置，即可完成自动翻弯，省去了很多步骤。
+          </p>
+        </div>
+        <div class="seeMore">↓ 滚动鼠标查看更多 ↓</div>
+      </div>
+
+      <div class="Page">
+        <div id="main-block">
+          <h3>插件三：族库管理</h3>
+          <div class="showGIF3"></div>
         </div>
 
-        <div class="nextPage">
-          <p>插件一：管道打断</p>
+        <div id="sidebar">
+          <p>插件功能介绍：</p>
+          <p>
+            通过此插件可以预览本地的族文件，点击载入即可往revit模型中放置族实例。
+          </p>
+          <p>
+            自带搜索功能，既不用全部加载到revit导致软件卡顿，又可以做到随用随取。
+          </p>
+          <p>
+            只需将收集的族放在自己取用方便的文件夹，通过此插件找到文件路径并打开即可。
+          </p>
+        </div>
 
-          <div class="showGIF1"></div>
-          <div>
-            <p>插件功能介绍：</p>
+        <div id="seeMore">↓ 滚动鼠标查看更多 ↓</div>
+      </div>
+
+      <div class="nextPage">
+        <div class="thankList">
+          <p style="margin-bottom: 10px;text-align: center;"><strong>最后一页啦~我将分享一些需要掌握的知识及学习资源。</strong></p>
+          <hr>
+          <div class="box2">
             <p>
-              1.单点打断：优化了revit自带的打断管道命令，不会自动生成管接头，减去了设计师手动删除管接头的步骤。
+              1.编程语言。Revit二次开发推荐C#。
             </p>
-            <p>2.两点打断：鼠标点击想要断开的两点即可，自动删除多余的管件。</p>
+            <a target="_blank"
+              href="https://www.bilibili.com/video/BV13b411b7Ht?spm_id_from=333.999.0.0">刘铁猛《C#语言入门详解》全集</a>
           </div>
-          <div class="seeMore">↓ 滚动鼠标或向下滑动查看更多 ↓</div>
-        </div>
 
-        <div class="nextPage">
-          <div>插件二：管道自动翻弯</div>
-          <div class="showGIF2"></div>
-          <div>
-            <p>插件功能介绍：</p>
+          <div class="box2">
             <p>
-              设置好需要翻弯的高度（正数往上翻，负数往下翻），然后鼠标点击需要翻弯的位置，即可完成自动翻弯，省去了很多步骤。
+              2.Revit二次开发的入门视频。这个方向的网络资源不多，推荐两位我看过并且课程讲得不错的前辈。
             </p>
+            <a target="_blank"
+              href="https://www.bilibili.com/video/BV1pP4y1H7H9?spm_id_from=333.337.search-card.all.click">黑夜de骑士</a>
+            <a target="_blank" href="https://space.bilibili.com/410869682">隋润泽</a>
           </div>
-          <div class="seeMore">↓ 滚动鼠标或向下滑动查看更多 ↓</div>
-        </div>
 
-        <div class="Page">
-          <gifBox>
-            <a>插件三：族库管理</a>
-            <div class="showGIF3"></div>
-          </gifBox>
-
-          <txtBox>
-            <p>插件功能介绍：</p>
+          <div class="box2">
+            <p>3.数据库。掌握数据库的基本用法。</p>
             <p>
-              通过此插件可以预览本地的族文件，点击载入即可往revit模型中放置族实例。
+              有SQL
+              Server、MySQL等，推荐一个1小时快速入门的视频，讲了增删改查基本用法，有了基本认识以后再根据自身需求找进阶课程。
             </p>
-            <p>
-              自带搜索功能，既不用全部加载到revit导致软件卡顿，又可以做到随用随取。
-            </p>
-            <p>
-              只需将收集的族放在自己取用方便的文件夹，通过此插件找到文件路径并打开即可。
-            </p>
-          </txtBox>
+            <a target="_blank"
+              href="https://www.bilibili.com/video/BV1bh411z7Ub?spm_id_from=333.337.search-card.all.click">SQLServer数据库快速入门</a>
+          </div>
 
-          <div class="seeMore">↓ 滚动鼠标或向下滑动查看更多 ↓</div>
-        </div>
-
-        <div class="nextPage">
-          <div class="thankList">
-            <p>最后一页啦~感谢你看到这里！我将分享一些需要掌握的知识及学习资源。</p>
-
-            <c>--------------------------------1--------------------------------</c>
-            <div>
-              <p>
-                首先需要学会编程的工具，即一门编程语言。Revit二次开发推荐C#。
-              </p>
-              <a
-                target="_blank"
-                href="https://www.bilibili.com/video/BV13b411b7Ht?spm_id_from=333.999.0.0"
-                >刘铁猛《C#语言入门详解》全集</a
-              >
-              <a target="_blank" href="https://space.bilibili.com/7499477"
-                >刘铁猛老师的b站主页</a
-              >
-              <p display="block" margin-top="10px">
-                除此之外，网上还有很多C#的教学视频，另外还要学习WPF，这一部分可以在网上搜，找到最适合自己的。
-              </p>
-            </div>
-            
-            <c>--------------------------------2--------------------------------</c>
-            <div>
-              <p>
-                Revit二次开发的入门视频。这个方向的网络资源不多，推荐两位我看过并且课程讲得不错的前辈。
-              </p>
-              <a target="_blank" href="https://space.bilibili.com/410869682"
-                >一位从事Revit二次开发3年的前辈制作的课程</a
-              >
-              <a
-                target="_blank"
-                href="https://www.bilibili.com/video/BV1pP4y1H7H9?spm_id_from=333.337.search-card.all.click"
-                >黑夜de骑士</a
-              >
-            </div>
-
-            <c>--------------------------------3--------------------------------</c>
-            <div>
-              <p>另外需要学习数据库的知识，掌握增删改查基本用法。</p>
-              <p>
-                有SQL
-                Server、MySQL等，这里仅推荐一个1小时的小视频，讲了增删改查基本用法，更多知识得根据自己的需求去找,网上很多教程。
-              </p>
-              <a
-                target="_blank"
-                href="https://www.bilibili.com/video/BV1bh411z7Ub?spm_id_from=333.337.search-card.all.click"
-                >SQLServer数据库快速入门</a
-              >
-            </div>
-           
-            <c>--------------------------------4--------------------------------</c>
-         <div>
-             <p>最后，要学习Git，用于管理代码版本的系统。</p>
-              <a
-                target="_blank"
-                href="https://git-scm.com/book/zh/v2"
-                >《Pro Git》电子书</a
-              >
-         </div>
-
-            <c>-----------------------（感谢以上所有的知识分享者，排名不分先后）-----------------------</c>
+          <div class="box2">
+            <p>4.Git。用于管理代码版本的系统。</p>
+            <a target="_blank" href="https://git-scm.com/book/zh/v2">《Pro Git》电子书</a>
+          </div>
+          <hr>
+          <p style="text-align: center;margin-top: 10px;"><strong>感谢以上所有的知识分享者，排名不分先后</strong></p>
         </div>
       </div>
     </div>
     <script src="./assets/script/main.js"></script>
-  </body>
+</body>
+
 </html>
